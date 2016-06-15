@@ -35,7 +35,7 @@ class search
      */
     private function connect()
     {
-        $this->mysqli = new mysqli('localhost', 'root', '', 'proto2');
+        $this->mysqli = new mysqli('localhost', '', '', '');
     }
 
     /**
