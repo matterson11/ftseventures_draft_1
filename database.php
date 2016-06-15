@@ -1,7 +1,7 @@
 <?php
 
 $host = '127.0.0.1';
-$username = 'root';
+$username = '';
 $password = '';
-$database = 'proto2';
+$database = '';
 $dbconfig = mysqli_connect($host,$username,$password,$database);
